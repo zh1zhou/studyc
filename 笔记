@@ -1,3 +1,4 @@
+继承
 class Creature
 {
 public:

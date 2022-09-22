@@ -1,0 +1,18 @@
+class Creature
+{
+public:
+	string type;
+	int eyes;
+};
+
+class Spider :public Creature
+{
+public: 
+	Spider()
+	{
+		eyes = 8;                            //子类可以初始化从父类继承下来的变量
+		type = "arachnid";
+		PoisonDamage = 20.f;
+	}
+	float PoisonDamage;
+};
